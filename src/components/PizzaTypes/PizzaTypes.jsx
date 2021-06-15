@@ -5,11 +5,11 @@ import image4 from "../../images/4.jpg";
 
 import './PizzaTypes.css'
 
-const PizzaTypes = () => {
+const PizzaTypes = (props) => {
   return (
     <div className="container">
       <div className="row pizza_types" id="pizza_types">
-        <h2 className="text-center  pizza_types ">PIZZA TYPES</h2>
+        <h2 className="text-center  pizza_types ">{props.title}</h2>
       </div>
 
       <div className="row">
