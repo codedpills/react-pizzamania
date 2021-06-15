@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Corousel />
       <About />
-      <PizzaTypes />
+      <PizzaTypes title={"Our Pizza Types"} />
       <Footer />
     </>
   );
